@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap");
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { font-family: 'Roboto', sans-serif; }
+
+/* ---------------Estilos principales--------------- */
+.conteiner { width: 90%; max-width: 1200px; margin: 0 auto; overflow: hidden; padding: 100px 0; height: auto; }
+
+.conteiner-modifier { width: 60%; }
+
+a { text-decoration: none; }
+
+/* -------------------Estilos header------------------- */
+.hero { width: 100%; min-height: 100vh; background: -webkit-gradient(linear, left top, left bottom, from(#30353b), to(#1a1b1f)); background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%); }
+
+.nav-hero { color: #fff; height: 70px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+
+.nav-conteiner { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; height: inherit; padding: 0; }
+
+.logo-name { font-size: 24px; }
+
+.link { display: inline-block; text-decoration: none; font-weight: 300; padding: 5px; margin: 0 5px; background: #05c46b; border-radius: 6px; color: #30353b; }
+
+.link:hover { color: #05c46b; background: none; border: 1px solid #05c46b; padding: 4px; }
+
+/* .link-active{
+    color: $verde-principal;
+    background: none;
+    border: 4px solid $verde-principal;
+    padding: 6px;
+} */
+.point { color: #05c46b; }
+
+.hero-main { height: calc(100vh - 70px); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 0; }
+
+.mockup { -o-object-fit: cover; object-fit: cover; width: 30%; max-height: 90vh; margin-right: 100px; /* height: calc(100vh - 70px); */ }
+
+.hero-texto { width: 48%; }
+
+.title { font-size: 56px; font-weight: 300; color: #fff; }
+
+.title-active { color: #05c46b; font-weight: 700; }
+
+.copy { font-size: 24px; text-shadow: 0 8px 8px #00000033; margin: 15px 0; color: #fff; }
+
+.copy-active { font-weight: 700; color: #05c46b; }
+
+.cta { padding: 20px 30px; display: inline-block; background: -webkit-gradient(linear, left top, left bottom, from(#05c46b), to(#0be881)); background: linear-gradient(180deg, #05c46b 0%, #0be881 100%); color: #30353b; font-weight: 700; -webkit-box-shadow: 0 8px 8px #00000033; box-shadow: 0 8px 8px #00000033; border-radius: 6px; }
+
+.cta:hover { color: #05c46b; background: none; border: 4px solid #05c46b; padding: 16px 26px; }
+
+/* -------------------------Estilos main services------------------------- */
+.services { background: #eeeeee; }
+
+.subtitle { font-size: 42px; }
+
+.subtitle-modifier { text-align: center; margin-bottom: 16px; }
+
+.copy-section { color: #30353b; font-size: 22px; line-height: 32px; margin-bottom: 60px; }
+
+.copy-section-modifier { text-align: center; margin-bottom: 32px; }
+
+.conteiner-cards { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.card { width: 30%; padding: 30px 0; overflow: hidden; background: -webkit-gradient(linear, left top, left bottom, from(#30353b), to(#1a1b1f)); background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%); border-radius: 10px; position: relative; text-align: right; margin-bottom: 60px; -webkit-box-shadow: 0 8px 8px #00000033; box-shadow: 0 8px 8px #00000033; }
+
+.card-img { width: 95%; height: 200px; -o-object-fit: cover; object-fit: cover; border-radius: 10px 0 0 10px; }
+
+.card-text { text-align: left; width: 90%; margin: auto; }
+
+.card-list { color: #0be881; font-weight: 700; margin: 25px 0 12px; font-size: 18px; }
+
+.card-title { font-size: 40px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+
+.card-copy { color: #f7d9d990; margin-bottom: 16px; }
+
+.card-boton { display: block; background: -webkit-gradient(linear, left top, left bottom, from(#05c46b), to(#0be881)); background: linear-gradient(180deg, #05c46b 0%, #0be881 100%); border-radius: 6px; color: #30353b; font-weight: 700; text-align: center; padding: 15px 0; }
+
+.card-boton:hover { color: #05c46b; background: none; border: 4px solid #05c46b; padding: 11px 0; }
+
+/* ---------------------Estilos main projects--------------------- */
+.card-date { color: #0be881; font-weight: 700; margin: 15px 0 12px; font-size: 18px; }
+
+.conteiner-bg { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.conteiner-bg .card { margin: 20px 10px; }
+
+.background { width: 65%; height: 290px; border-radius: 10px; position: relative; }
+
+.background-img { width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; border-radius: inherit; }
+
+.background-text { position: absolute; width: 100%; bottom: 30px; left: 15px; color: #fff; }
+
+.background-title { font-size: 24px; }
+
+/* -----------------Estilos main testimony----------------- */
+.testimony { background: #eeeeee; }
+
+.testimony-conteiner { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.testimony-card { width: 30%; height: 500px; background: -webkit-gradient(linear, left top, left bottom, from(#30353b), to(#1a1b1f)); background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%); border-radius: 10px; position: relative; margin-bottom: 30px; }
+
+.testimony-img { width: 100%; height: 100%; border-radius: 10px; -o-object-fit: cover; object-fit: cover; -o-object-position: center top; object-position: center top; }
+
+.testimony-copy { position: absolute; bottom: 20px; left: 5%; width: 90%; background: -webkit-gradient(linear, left top, left bottom, from(#30353b), to(#1a1b1f)); background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%); color: #fff; margin: auto; border-radius: 10px; padding: 10px 8px; -webkit-box-shadow: 0 8px 8px #00000033; box-shadow: 0 8px 8px #00000033; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.testimony-copy--modifier { background: none; -webkit-box-shadow: none; box-shadow: none; }
+
+.testimony-logo { font-size: 40px; margin-right: 15px; display: inline-block; }
+
+.testimony-name { font-size: 24px; line-height: 28px; }
+
+.testimony-position { color: #ffffff80; }
+
+.testimony-text { padding: 40px 0; width: 90%; margin: 0 auto; }
+
+.testimony-picture { position: relative; width: 50px; height: 50px; -o-object-fit: cover; object-fit: cover; -o-object-position: center top; object-position: center top; border-radius: 50%; }
+
+.google-logo { width: 50%; margin-bottom: 20px; -webkit-filter: brightness(5000%); filter: brightness(5000%); }
+
+.testimony-history { font-size: 21px; font-weight: 300; color: #fff; }
+
+.testimony-info { width: 80%; }
+
+/* -------------------Estilos main email------------------- */
+.check { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0 auto; }
+
+.check-item { width: 30%; padding-right: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; border-right: 2px solid #30353b; }
+
+.check-item-modifier { border-right: none; }
+
+.bx-check { background: -webkit-gradient(linear, left top, left bottom, from(#30353b), to(#1a1b1f)); background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%); display: inline-block; width: 40px; height: 40px; text-align: center; margin-right: 20px; color: #fff; border-radius: 50%; font-size: 40px; }
+
+.check-number { font-weight: 700; }
+
+.check-copy { font-weight: 300; }
+
+.newsletter { width: 60%; margin: 0 auto; margin-top: 40px; height: auto; font-family: inherit; position: relative; border-radius: 6px; }
+
+.newsletter-modifier { margin: 0; width: 80%; }
+
+.newsletter-input { width: 100%; height: 100%; padding: 22px 10px; outline: none; font-family: inherit; border-radius: 6px; border: 1px solid #1a1b1f; }
+
+.newsletter-submit { position: absolute; right: 8px; top: 10%; height: 80%; background: -webkit-gradient(linear, left top, left bottom, from(#30353b), to(#1a1b1f)); background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%); color: #fff; padding: 0 15px; border: none; border-radius: 6px; font-family: inherit; font-weight: 700; cursor: pointer; }
+
+.newsletter-submit:hover { color: #1a1b1f; background: none; border: 4px solid #1a1b1f; padding: 0 11px; }
+
+/* ----------------------------Estilos footer---------------------------- */
+.footer { background: #eeeeee; }
+
+.footer-caption { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+
+.title-footer { font-size: 24px; margin-bottom: 32px; }
+
+.download { width: 50%; }
+
+.download-app { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.download-item { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 18px 32px; border-radius: 6px; border: 1px solid #30353b; width: 95%; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-right: 20px; margin-bottom: 16px; color: #1a1b1f; }
+
+.download-logo { font-size: 40px; margin-right: 20px; }
+
+.download-title { font-size: 18px; }
+
+.footer-copy { width: 100%; color: #30353b; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.copyright { width: 100%; }
+
+.politica-privacidad { color: inherit; display: inline-block; margin-top: 10px; }
+
+.politica-privacidad:hover { text-decoration: underline; }
+
+.politica-privacidad-margin { margin-right: 10px; }
+
+/* ----------------------------Estilos footer get email---------------------------- */
+.get-email { width: 50%; }
+
+.socialmedia { margin-top: 24px; display: -webkit-box; display: -ms-flexbox; display: flex; color: #30353b; }
+
+.socialmedia-icon { font-size: 18px; margin-right: 30px; display: inline-block; color: #30353b; }
+
+.socialmedia-legend { color: #30353b; margin-right: 16px; }
+
+/* -----------------------------Estilos footer contact----------------------------- */
+.contact { display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; -ms-flex-wrap: wrap; flex-wrap: wrap; color: #fff; }
+
+.item-contact { width: 25%; padding: 60px 0; text-align: center; background: -webkit-gradient(linear, left top, left bottom, from(#30353b), to(#1a1b1f)); background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%); }
+
+.item-contact-verde { background: -webkit-gradient(linear, left top, left bottom, from(#05c46b), to(#0be881)); background: linear-gradient(180deg, #05c46b 0%, #0be881 100%); color: #1a1b1f; }
+
+.contact-icon { font-size: 14px; color: #05c46b; line-height: 20px; margin-right: 4px; }
+
+.contact-icon-modifier { color: #1a1b1f; }
+
+.contact-title { font-size: 16px; line-height: 20px; }
+
+/* -------------------------Estilos responsive------------------------- */
+@media screen and (max-width: 900px) { .mockup { width: 350px; height: auto; margin-right: 0; }
+  .title { font-size: 50px; }
+  .copy { font-size: 22px; }
+  .cta { padding: 15px 22px; }
+  .cta:hover { padding: 11px 18px; }
+  .conteiner-cards { -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+  .services .card { width: 42%; }
+  .background { width: 52%; }
+  .card { width: 42%; }
+  .testimony-conteiner { -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+  .testimony-card { width: 45%; }
+  .newsletter { width: 80%; }
+  .download { width: 100%; }
+  .download-app { width: 100%; }
+  .download-item { width: 90%; }
+  .get-email { width: 100%; margin-bottom: 40px; }
+  .socialmedia-icon { font-size: 18px; }
+  .socialmedia-legend { font-size: 18px; } }
+
+@media screen and (max-width: 800px) { .check-item { width: 45%; margin-bottom: 35px; }
+  main .conteiner, footer .conteiner { padding: 60px 0; }
+  .nav-conteiner { -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+  .nav-hero { height: auto; }
+  .links { padding-bottom: 10px; text-align: center; }
+  .logo { padding: 15px 0; text-align: center; } }
+
+@media screen and (max-width: 700px) { main .conteiner, footer .conteiner { padding: 60px 0; }
+  .hero-main { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; height: auto; padding: 30px 0; }
+  .link { background: none; color: inherit; }
+  .hero-texto { width: 100%; text-align: center; }
+  .mockup { width: 60%; margin-bottom: 20px; }
+  .title { font-size: 35px; }
+  .copy { font-size: 20px; }
+  .subtitle { font-size: 35px; text-align: center; }
+  .copy-section { font-size: 20px; text-align: center; }
+  .services .card { width: 80%; }
+  .conteiner-bg { -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+  .card { margin-bottom: 40px; width: 65%; }
+  .card-title { font-size: 35px; }
+  .card-boton { width: 100%; }
+  .background { width: 65%; margin-bottom: 45px; }
+  .background-copy { display: none; }
+  .testimony-card { width: 65%; }
+  .testimony-name { font-size: 20px; }
+  .check-item-modifier { display: none; }
+  .item-contact { width: 100%; padding: 30px 0; }
+  .conteiner-modifier { width: 80%; } }
+
+@media screen and (max-width: 500px) { .mockup { width: 80%; margin-bottom: 15px; }
+  .services .card { width: 95%; }
+  .card { width: 95%; }
+  .background { width: 95%; }
+  .testimony-card { width: 95%; }
+  .testimony-history { font-size: 20px; }
+  .conteiner-modifier { width: 95%; }
+  .newsletter { width: 100%; } }
+
+@media screen and (max-width: 400px) { .download-app { width: 95%; display: block; } }
+/*# sourceMappingURL=style.css.map */
