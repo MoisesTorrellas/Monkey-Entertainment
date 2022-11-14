@@ -540,6 +540,9 @@ a{
 }
 /* -------------------------Estilos responsive------------------------- */
 @media screen and (max-width:900px) {
+    .boton-float{
+        display: none;
+    }
     .mockup{
         width: 350px;
         height: auto;

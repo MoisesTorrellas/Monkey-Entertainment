@@ -201,7 +201,8 @@ a { text-decoration: none; }
 .contact-title { font-size: 16px; line-height: 20px; }
 
 /* -------------------------Estilos responsive------------------------- */
-@media screen and (max-width: 900px) { .mockup { width: 350px; height: auto; margin-right: 0; }
+@media screen and (max-width: 900px) { .boton-float { display: none; }
+  .mockup { width: 350px; height: auto; margin-right: 0; }
   .title { font-size: 50px; }
   .copy { font-size: 22px; }
   .cta { padding: 15px 22px; }
