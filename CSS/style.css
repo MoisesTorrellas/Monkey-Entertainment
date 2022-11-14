@@ -10,6 +10,10 @@ body { font-family: 'Roboto', sans-serif; }
 
 a { text-decoration: none; }
 
+.boton-float { display: -webkit-box; display: -ms-flexbox; display: flex; width: auto; height: auto; z-index: 1; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+
+.img-float { display: inherit; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: fixed; width: 15px; height: 15px; background: #05c46b; padding: 20px; border-radius: 100%; margin: 20px; z-index: 100000; }
+
 /* -------------------Estilos header------------------- */
 .hero { width: 100%; min-height: 100vh; background: -webkit-gradient(linear, left top, left bottom, from(#30353b), to(#1a1b1f)); background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%); }
 
@@ -161,6 +165,8 @@ a { text-decoration: none; }
 .download-logo { font-size: 40px; margin-right: 20px; }
 
 .download-title { font-size: 18px; }
+
+.download-item:hover { border: 1px solid #05c46b; color: #05c46b; }
 
 .footer-copy { width: 100%; color: #30353b; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 

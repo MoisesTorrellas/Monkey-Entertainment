@@ -32,6 +32,28 @@ body{
 a{
     text-decoration: none;
 }
+.boton-float{
+    display: flex;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.img-float{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    background: $verde-principal;
+    padding: 20px;
+    border-radius: 100%;
+    margin: 20px;
+    z-index: 100000;
+
+}
 /* -------------------Estilos header------------------- */
 .hero{
     width: 100%;
@@ -442,6 +464,10 @@ a{
 }
 .download-title{
     font-size: 18px;
+}
+.download-item:hover{
+    border: 1px solid $verde-principal;
+    color: $verde-principal;
 }
 .footer-copy{
     width: 100%;
